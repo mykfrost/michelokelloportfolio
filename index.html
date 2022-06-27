@@ -4,23 +4,79 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My Portfolio</title>
+    <title>Michael Okello Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="css/normalize.css" />
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
-    <nav class="nav collapsible">
-      <a class="nav__brand" href="/"><img src="images/logo.svg" alt="" /></a>
-      <svg class="icon icon--white nav__toggler">
-        <use xlink:href="images/sprite.svg#menu"></use>
-      </svg>
-      <ul class="list nav__list collapsible__content">
-        <li class="nav__item"><a href="#">Hosting</a></li>
-        <li class="nav__item"><a href="#">VPS</a></li>
-        <li class="nav__item"><a href="#">Domain</a></li>
-        <li class="nav__item"><a href="#">Pricing</a></li>
-      </ul>
-    </nav>
+    <header>
+      <nav class="nav collapsible">
+        <a class="nav__brand" href="/"><img src="images/logo.svg" alt="" /></a>
+        <svg class="icon icon--white nav__toggler">
+          <use xlink:href="images/sprite.svg#menu"></use>
+        </svg>
+        <ul class="list nav__list collapsible__content">
+          <li class="nav__item"><a href="#">Home</a></li>
+          <li class="nav__item"><a href="#">Works</a></li>
+          <li class="nav__item"><a href="#">About</a></li>
+          <li class="nav__item"><a href="#">Projects</a></li>
+          <li class="nav__item"><a href="#">Services</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="block">
+      <div class="grid grid--1x2">
+        <div class="block-showcase">
+          <div>
+            <h1 class="block__heading">
+              Hi, I am <button class="btn btn--secondary">UX/UI</button>
+            </h1>
+            <h1 class="block__heading">Michael Otieno Okello</h1>
+            <p class="block-plans">
+              If you're looking for a professional website designer or fully
+              responsive Website design then this is the right place for you. I
+              can develop or design professional website same as your
+              requirement. I've 5 years of experience in web development.
+            </p>
+          </div>
+          <div>
+            <button class="btn btn--primary">Hire Me</button>
+            <button class="btn btn--primary">Projects</button>
+          </div>
+
+          <h3>+40</h3>
+          <p>Clients on Work Worldwide</p>
+          <h3>44</h3>
+          <p>Projects Done</p>
+
+          <h3>Contact</h3>
+          <p>okellofrost@gmail.com</p>
+        </div>
+        <div>
+          <div class="media__body">
+            <h3 class="media__title">
+              Hire Me to Build Your Professional Website For You
+            </h3>
+            <img src="images/michaelokello.jpeg" alt="My Portfolio Image" />
+            <div class="input-group">
+              <input
+                type="text"
+                class="input"
+                placeholder="Subscribe To My Newsletter..."
+              />
+              <button class="btn btn--accent">Subscribe</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
     <script src="js/main.js"></script>
   </body>
